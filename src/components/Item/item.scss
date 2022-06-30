@@ -1,0 +1,27 @@
+.item {
+  margin: 50px auto;
+
+  .images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .top_image {
+      width: 400px;
+      height: 260px;
+      margin: 0 auto;
+    }
+
+    .bottom_images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 20px;
+
+      img {
+        width: 100px;
+        height: 80px;
+      }
+    }
+  }
+}
